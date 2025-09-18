@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+body{
+    margin-top: 15px;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(31, 31, 31), rgb(31, 31, 31));
+    color: #fff;
+    /* text-align: center; */
+}
+
+.isi{
+    text-align: center;
+}
+
+.tabel{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5%;
+    box-shadow: 0px 0px 10px 0px #000000
+}
+
+table{
+    width: 100%;
+    padding-top: 20px;
+    border-collapse: collapse;
+    padding-top: 10px;
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: #232323;
+}
+
+table, th, td{
+    /* border: 2px solid #2f2f2f; */
+    padding: 20px;
+}
+table tr td{
+    background-color: #292929;
+    padding: 10px 10px;
+    border-bottom: 2px solid rgb(59, 59, 59);
+}
+
+.button{
+    margin-bottom: 25px;
+    cursor: pointer;
+    position: relative;
+    padding: 16px 32px;
+    font-family: montserrat-extrabold;
+    font-size: 14px;
+    color: white;
+    background-color: #9900CC;
+    border-radius: 10px;
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: #bf00ff;
+    box-shadow: 0px 0px 8px 0px #bf00ff;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+.inpo{
+    text-align: left;
+}
+
+.inpo a button{
+    color:#2f2f2f;
+}
+
+.edit{
+    background-color: #630799;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.hapus{
+    background-color: #a50032;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.tombol{
+    background-image: linear-gradient(rgb(31, 31, 31), rgb(31, 31, 31));
+    cursor: pointer;
+    padding: 10px;
+    border: 0px solid;
+}
+
+.footer{
+    padding: 40px;
+    text-align: center;
+    background-color: #232323;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+.contact ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 2px;
+    position: relative;
+}
