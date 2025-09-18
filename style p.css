@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100%; */
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(31, 31, 31), rgb(31, 31, 31));
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url(font/montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'montserrat-extrabold';
+    src: url(font/montserrat/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url(font/montserrat/Montserrat-Regular.ttf);
+}
+
+.navbar{
+    display: flex;
+    font-family: montserrat-extrabold;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    background-image: linear-gradient(rgb(31, 31, 31), rgb(31, 31, 31));
+    height: 80px;
+    padding: 15px 20px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 56px;
+}
+
+.warna{
+    color: #fff;
+    transition: 0.3s;
+}
+
+.navbar ul {
+    display : flex;
+    flex-direction: row;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    margin: 0px 10px;
+    position: relative
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #5e0584dd;
+    box-shadow: 0px -13px 15px 0px #d064ff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.button{
+    cursor: pointer;
+    position: relative;
+    padding: 16px 32px;
+    font-family: montserrat;
+    font-size: 14px;
+    color: white;
+    background-color: #9900CC;
+    border-radius: 10px;
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: #bf00ff;
+    box-shadow: 0px 0px 8px 0px #bf00ff
+}
+
+.content{
+    color: #fff;
+    background-color: #232323;
+}
+
+.isi_content{
+    padding: 30px;
+}
+
+.isi_content h1{
+    padding: 10px 0;
+}
+
+.footer{
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+table{
+    margin: 0 46%;
+}
+
+table tr td a{
+    padding: 0 3px;
+}
